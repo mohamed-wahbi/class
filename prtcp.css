@@ -1,0 +1,37 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+.tab2 th {
+    border-bottom: 2px solid;
+    background: #e5e1ed;
+    border-color: #c4cecb;
+    color: #319767;
+    text-align: center;
+    padding: 4px 30px;
+}
+
+.tab2 td {
+    font-size: 17px;
+    text-align: center;
+    border-bottom: 1px solid;
+    background: whitesmoke;
+    border-color: #e5e5e5;
+    font-family: cursive;
+    padding: 7px;
+}
+
+.tab2 td .delete {
+    text-decoration: none;
+    color: brown;
+}
+
+.tab2 td .update {
+    text-decoration: none;
+    color: rgb(32 49 169);
+}
+

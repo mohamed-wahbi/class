@@ -1,0 +1,285 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #181818;
+    height: 100vh;
+}
+
+.navbar {
+    height: 80px;
+    width: 100%;
+    background-color: #1f1f1f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.LOGO {
+    color: #b8c9b5;
+    font-size: 30px;
+    margin: 15px;
+    padding: 5px 35px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-left: 3px solid yellow;
+    border-bottom: 5px solid green;
+    border-right: 3px solid yellow;
+    border-top: 5px solid green;
+}
+
+.navbar .links {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 21px;
+    margin: 0 25px;
+}
+
+.navbar .links a {
+    text-decoration: none;
+    color: rgb(52, 94, 52);
+    transition: 0.4s;
+    text-transform: uppercase;
+
+}
+
+.navbar .links a:hover {
+    font-size: 23px;
+    color: #50c050;
+    text-decoration-color: yellow !important;
+    text-decoration: underline;
+}
+
+.main {
+    height: 610px;
+    background: #343c34b0;
+    margin: 15px 50px;
+    box-shadow: 12px 8px 12px 1px #4f744e;
+    box-shadow: 12px 8px 12px 1px #4f744e;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.welcom {
+    width: 50%;
+    font-size: 37px;
+    font-family: serif;
+    letter-spacing: 2px;
+    text-align: start;
+    color: #b8c9b5;
+}
+
+.image {
+    width: 30%;
+    color: wheat;
+    height: 70%;
+    background: #273832;
+}
+
+main {
+    height: 100vh;
+    width: 90%;
+    margin: 50px auto;
+    background: #273832;
+}
+
+.info {
+    height: 50%;
+}
+
+.infotext {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 45px;
+}
+
+.infotext p {
+    font-size: 25px;
+    color: #b8c9b5;
+    text-decoration: underline;
+    text-decoration-color: #34423e;
+}
+
+.infotext h2 {
+    font-size: 25px;
+    color: #8cd87e;
+    margin-bottom: 15px;
+
+}
+
+.icon {
+    height: 95%;
+    width: 50%;
+    margin: auto;
+    background: #2b302b;
+}
+
+.inscription form {
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    color: white;
+}
+
+.inscription form label {
+    margin-bottom: 6px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #b8c9b5;
+}
+
+.inscription form input {
+    margin-bottom: 15px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background: #7da8a091;
+    color: white;
+    font-size: 17px;
+    padding: 0px 5px;
+}
+
+.inscription {
+    height: 100vh;
+    padding: 20px;
+
+}
+
+.select {
+    margin-bottom: 15px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background: #7da8a091;
+    color: white;
+    font-size: 17px;
+    padding: 0px 5px;
+}
+
+.inscription form .btn{
+    font-size: 22px;
+    font-family: monospace;
+    display: flex;
+    float: right;
+    background: #1e7021;
+    padding: 5px;
+    border-radius: 5px;
+    color: #b8c9b5;
+    transition: 0.4s;
+    width: 125px;
+    justify-content: center;
+    margin: auto;
+}
+
+
+
+.inscription form .btn:hover {
+    color: #1e7021;
+    background-color: #b8c9b5;
+    border: 5px solid #1e7021;
+}
+
+.inscription h2 {
+    text-align: center;
+    font-size: 25px;
+    color: #8cd87e;
+    margin-bottom: 15px;
+}
+
+.emploi {
+    height: 100vh;
+    background: #2b302b;
+    padding: 15px;
+    width: 90%;
+    margin: auto;
+}
+
+.emploi h2 {
+    text-align: center;
+    font-size: 25px;
+    color: #8cd87e;
+    margin-bottom: 15px;
+}
+
+.caroselEmploi {
+    height: 90%;
+    background: #100b0b;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.caroselEmploi a {
+    height: 400px;
+    background: #442626;
+    width: 200px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.caroselEmploi a:hover {
+    background-color: rgb(150, 99, 99);
+    height: 420px;
+}
+
+.footer h2 {
+    text-align: center;
+    font-size: 25px;
+    color: #8cd87e;
+    margin-bottom: 15px;
+}
+
+.footer {
+    height: 50vh;
+    width: 90%;
+    margin: 7px auto;
+    padding: 25px;
+}
+
+.footerContent {
+    display: flex;
+    justify-content: space-around;
+    height: 90%;
+}
+
+.footerContent .component {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1d6d51;
+    margin: 5px;
+    ;
+}
+
+.main2 {
+    height: 625px;
+    background: #343c34b0;
+    margin: 15px 50px;
+    box-shadow: 12px 8px 12px 1px #4f744e;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.adminw {
+    text-align: center;
+    padding: 10px 0;
+}
