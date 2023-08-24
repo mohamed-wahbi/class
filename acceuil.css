@@ -76,9 +76,11 @@ body {
 
 .image {
     width: 30%;
-    color: wheat;
     height: 70%;
-    background: #273832;
+    background-image: url(https://isetke.rnu.tn/useruploads/banners/515169581380_03_15_38.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -160px;    
 }
 
 main {
